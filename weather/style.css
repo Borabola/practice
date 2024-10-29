@@ -1,0 +1,35 @@
+html {
+    box-sizing: border-box;
+    font-size: 0.625em;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+* {
+    color: #1d1d1b;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+}
+
+body {
+    color: #ffffff;
+    background: #050041;
+    margin: 0;
+}
+
+h1 {
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 40px;
+}
+.wrapper {
+    display: flex;
+}
